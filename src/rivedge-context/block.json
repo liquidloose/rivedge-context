@@ -1,0 +1,29 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "rivedge-context/context",
+	"version": "0.1.1",
+	"title": "Rivedge Context Block",
+	"category": "Data",
+	"icon": "smiley",
+	"description": "A dynamic block",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"recordId": {
+			"type": "string"
+		}
+	},
+	"providesContext": {
+		"rivedge-context/context": "recordId"
+	},
+	"usesContext": ["rivedge-context/context"],
+	"textdomain": "context",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}
