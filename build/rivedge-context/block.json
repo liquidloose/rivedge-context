@@ -12,12 +12,9 @@
     "html": false
   },
   "attributes": {
-    "recordId": {
+    "allPosts": {
       "type": "string"
     }
-  },
-  "providesContext": {
-    "rivedge-context/context": "recordId"
   },
   "usesContext": [
     "rivedge-context/context"
